@@ -1,0 +1,21 @@
+{
+    "name": "jefferson-o/php-database",
+    "description": "proyecto de conexion a bd con php",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Ortiz Rodriguez",
+            "email": "jortizr@ut.edu.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/",
+            "Router\\": "router/"
+        }
+    },
+    "require": {}
+}
